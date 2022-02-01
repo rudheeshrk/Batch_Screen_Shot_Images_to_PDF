@@ -13,7 +13,9 @@ image_list = [None];
 
 for number in range(No_of_screenshots):
  
-    filename[number] =  'C:\python_trials\\2022-02-01 (' + str(number) + ').png'
+    # Give the path where all screen shot files are stored
+    filename[number] =  'C:\python_trials\\2022-02-01 (' + str(number) + ').png';
+    
     #print(filename[number])     
    
     image[number] = Image.open(filename[number]);
